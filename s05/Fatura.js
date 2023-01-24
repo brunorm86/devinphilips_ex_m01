@@ -1,8 +1,9 @@
-export default class Fatura {
+class Fatura {
     id
     descricao
     quantia
     preco
+
     constructor(id, descricao, quantia, preco) {
         this.id = id
         this.descricao = descricao
@@ -19,3 +20,5 @@ export default class Fatura {
     }
 
 }
+
+export default Fatura;

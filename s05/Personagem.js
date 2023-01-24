@@ -1,4 +1,4 @@
-export default class Personagem {
+class Personagem {
     nome
     percentualVida
 
@@ -20,3 +20,5 @@ export default class Personagem {
         this.percentualVida + 10 <= 100 ? this.percentualVida += 10 : this.percentualVida = 100
     }
 }
+
+export default Personagem;
