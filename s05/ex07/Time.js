@@ -60,6 +60,8 @@ class Time {
                     this.vitorias += 1;
                 }
             }
+        } else{
+            console.log("Este time não participou desta partida!")
         }
     }
 
