@@ -1,6 +1,6 @@
 import Funcionario from "./Funcionario.js";
-import Fatura from "./Fatura";
-import Personagem from "./Personagem";
+import Fatura from "./Fatura.js";
+import Personagem from "./Personagem.js";
 
 const bruno = new Funcionario('050.741.159-57', 'Bruno Ricardo Machado', 8000)
 
