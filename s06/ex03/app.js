@@ -20,4 +20,13 @@ const cliente = {cpf: 11111111111, nome: 'Calleri', margem: 1000.0};
 const aprovacaoCadastro = aprovarDadosCadastrais(cliente);
 const aprovacaoValor = aprovarValorSolicitado(cliente, 300.0);
 
+Promise.all([aprovacaoCadastro, aprovacaoValor]).then((resultado) => {
+    console.log(resultado)
+}).catch((erro) => {
+    console.log(erro)
+}).finally(() => {
+    console.log('Fim do processamento')
+});
+
+
 // continue com o tratamento dos resultados de ambas as promises...
